@@ -1,0 +1,23 @@
+{
+  "name": "secure-cloud-edge-fileshare-system",
+  "version": "1.0.0",
+  "description": "Secure File Sharing System Between Cloud and Edge (AES-256, RSA-2048, SHA-256, JWT)",
+  "scripts": {
+    "install:all": "npm install --prefix backend/cloud-server && npm install --prefix backend/edge-server && npm install --prefix frontend",
+    "cloud": "npm start --prefix backend/cloud-server",
+    "edge": "npm start --prefix backend/edge-server",
+    "frontend": "npm run dev --prefix frontend",
+    "start": "python start.py"
+  },
+  "keywords": [
+    "cloud-computing",
+    "edge-computing",
+    "aes-256",
+    "rsa",
+    "file-sharing",
+    "cryptography",
+    "security"
+  ],
+  "author": "Antigravity AI Pair Programmer",
+  "license": "MIT"
+}
